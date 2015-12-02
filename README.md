@@ -9,12 +9,12 @@ with a new challenge every day for all of the advent made by [@topaz](https://gi
 
 I'm posting my answers here, in case anybody is stuck and wants to look into a solution.
 
-Some of my answers might not be have the optimal performance but I wanted to keep
+Some of my answers might not have the optimal performance but I wanted to keep
 the code readable rather than compact and fast.
 
 ## Thank you
 
-Big thanks to Eric Wastl [@ericwastl on Twitter](https://twitter.com/ericwastl) for putting that together.
+Big thanks to Eric Wastl ([@ericwastl on Twitter](https://twitter.com/ericwastl)) for putting that together.
 
 
 ## Run the code
