@@ -9,7 +9,7 @@
     "sub"       : true,
     "undef"     : true,
     "eqnull"    : true,
-    "browser"   : true,
+    "browser"   : false,
     "node"      : true,
     "maxlen"    : 150,
     "strict"    : false,
