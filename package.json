@@ -1,0 +1,7 @@
+{
+  "name": "advent-of-code",
+  "version": "4.0.0",
+  "dependencies": {
+    "md5": "^2.0.0"
+  }
+}

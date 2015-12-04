@@ -19,6 +19,6 @@ Big thanks to Eric Wastl ([@ericwastl on Twitter](https://twitter.com/ericwastl)
 
 ## Run the code
 
-If you want to run my solutions, you can go into each directory and simply run
-`node <filename>` such as `node part-1.js` or `node day-1/part-1.js`. Since none of them
-have any dependencies (thus far).
+First run `npm install` in the folder to install dependencies.
+
+You can run each day like `node day-3/part-1.js`.
