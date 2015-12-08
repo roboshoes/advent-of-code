@@ -1,7 +1,6 @@
-var fs = require( "fs" );
-var input = fs.readFileSync( __dirname + "/input.txt", "utf-8" );
-
-var lines = input.split( "\n" );
+var input = require( "fs" )
+    .readFileSync( __dirname + "/input.txt", "utf-8" )
+    .split( "\n" );
 
 function encode( string ) {
     string = string
@@ -11,7 +10,7 @@ function encode( string ) {
     return "\"" + string + "\"";
 }
 
-var amount = lines.reduce( function( previous, line ) {
+var amount = input.reduce( function( previous, line ) {
 
     previous += encode( line ).length;
     previous -= line.length;
