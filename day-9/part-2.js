@@ -62,10 +62,10 @@ function goTo( name, placesVisited ) {
     return Math.max.apply( Math, subDistances );
 }
 
-var shortest = stops.reduce( function( previous, start ) {
+var longest = stops.reduce( function( previous, start ) {
 
     return Math.max( goTo( start, [] ), previous );
 
 }, -Infinity );
 
-console.log( shortest );
+console.log( longest );
